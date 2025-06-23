@@ -14,13 +14,19 @@ DOC STRING
     A maior parte dos posicionamentos com TKinter foram feitas com o recurso Grid, 
     dividindo a interface em uma espécie de tabela de linhas e colunas
 
-    Após obter um resultado, por exemplo "1 + 1", aparecerá o resultado (2) e 
+    Após calcular, por exemplo "1 + 1", aparecerá o resultado (2) e 
     logo após isso não será possível adicionar um ponto ".", 
     pois a continuação dos cálculos após o botão "=" ser pressionado será interpretado como uma expressão entre parênteses ()
     ou seja, se você calculou 1+1 e o resultado saiu "2" na parte inferior do display, após apertar um ponto "." ele tentará 
     calcular algo como "(1+1)." [...]
 
-    O botão C de fundo vermelho (Clear) reseta os cálculos.
+    O botão C de fundo vermelho (Clear) reseta a calculadora.
+
+        Os cálculos são executados de acordo com a sintaxe do Python, ou seja, se pode fazer:
+        - Divisão inteira com "//"
+        - Exponenciação com "**"
+
+        Etc.
 
     ----------------------------------------------------------
 
@@ -30,12 +36,12 @@ DOC STRING
 
     ----------------------------------------------------------
 
-    No final do arquivo py há a antiga maneira usada para capturar os valores dos botões para serem calculadas.
+    No final do arquivo py há a antiga maneira usada para capturar os valores dos botões a serem calculados.
     Ao decorrer do projeto fui aprendendo muitas coisas e consegui fazer o mesmo de maneira mais enxuta.
 
     ----------------------------------------------------------
 
-    Percebi que ao executar no Windows 11 a aplicação ficou um pouco problemática, principalmente no layout e não entendi
+    Percebi que, ao executar no Windows 11, a aplicação ficou um pouco problemática, principalmente no layout e não entendi
     o porquê. Então esse arquivo em específico está feito para sistemas Linux. Provavelmente tentarei criar outro arquivo
     adaptado para Windows.
 
@@ -107,7 +113,6 @@ def equals_value():
     # Main Window
 
 root = Tk()
-#root.iconbitmap(r'C:\Users\avini\OneDrive\Desktop\Programming\Python\Projetos-pessoais\calculadora\images\icone.ico ') - ícone, só funciona em Windows
 
 screen_width = root.winfo_screenwidth() # Get the screen width
 screen_height = root.winfo_screenheight() # Get the screen height

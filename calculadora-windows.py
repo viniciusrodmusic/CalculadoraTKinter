@@ -9,19 +9,20 @@ DOC STRING
      - 6 linhas
     (Row 0 --> Linha 1  //  Column 0 --> Coluna 1)
 
-    Muitas informações estão escritas em inglês porque simplesmente quis praticar o idioma
+    Muitas informações estão escritas em inglês porque quis praticar o idioma
 
     A maior parte dos posicionamentos com TKinter foram feitas com o recurso Grid, 
     dividindo a interface em uma espécie de tabela de linhas e colunas
 
-    Após obter um resultado, por exemplo "1 + 1", aparecerá o resultado (2) e 
+    Após calcular, por exemplo "1 + 1", aparecerá o resultado (2) e 
     logo após isso não será possível adicionar um ponto ".", 
     pois a continuação dos cálculos após o botão "=" ser pressionado será interpretado como uma expressão entre parênteses ()
     ou seja, se você calculou 1+1 e o resultado saiu "2" na parte inferior do display, após apertar um ponto "." ele tentará 
     calcular algo como "(1+1)." [...]
 
-    O botão C de fundo vermelho (Clear) reseta os cálculos.
-
+    O botão C de fundo vermelho (Clear) reseta a calculadora.
+    
+    ----------------------------------------------------------
     Os cálculos são executados de acordo com a sintaxe do Python, ou seja, se pode fazer:
         - Divisão inteira com "//"
         - Exponenciação com "**"
@@ -35,7 +36,7 @@ DOC STRING
 
     ----------------------------------------------------------
 
-    No final do arquivo py há a antiga maneira usada para capturar os valores dos botões para serem calculadas.
+    No final do arquivo py há a antiga maneira usada para capturar os valores dos botões a serem calculados.
     Ao decorrer do projeto fui aprendendo muitas coisas e consegui fazer o mesmo de maneira mais enxuta.
 
     ----------------------------------------------------------
