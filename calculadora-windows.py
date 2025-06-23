@@ -20,6 +20,11 @@ DOC STRING
     ou seja, se você calculou 1+1 e o resultado saiu "2" na parte inferior do display, após apertar um ponto "." ele tentará 
     calcular algo como "(1+1)." [...]
 
+    Sobre as variáveis:
+        "accumulating" armazena o resultado acumulado
+        "expressions" armazena o resultado para mostrar na parte superior da calculadora
+        "results" armazena o resultado e mostra abaixo da "expressions"
+
     O botão C de fundo vermelho (Clear) reseta a calculadora.
     
     ----------------------------------------------------------
